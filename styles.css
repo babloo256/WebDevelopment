@@ -1,0 +1,114 @@
+body{
+    margin: 0px;
+    text-align: center;     
+}
+
+h1{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-family: 'Dancing Script', cursive;
+    font-size: 3.5rem;
+    color: #FF96AD;
+}
+
+h2{
+    font-family: 'Inconsolata', monospace;
+    font-size: 2rem;
+    color: #FF96AD;
+}
+
+p, h3{
+    font-family: 'Inconsolata', monospace;
+    font-size: 1.20rem;
+    color: #005A8D;
+}
+
+a{
+    color: #005A8D;
+    font-family: 'Inconsolata', monospace;
+    padding: 1rem;
+}
+
+/* CLASSES */
+
+.btn {
+    background: #3498db;
+    background-image: -webkit-linear-gradient(top, #3498db, #2980b9);
+    background-image: -moz-linear-gradient(top, #3498db, #2980b9);
+    background-image: -ms-linear-gradient(top, #3498db, #2980b9);
+    background-image: -o-linear-gradient(top, #3498db, #2980b9);
+    background-image: linear-gradient(to bottom, #3498db, #2980b9);
+    -webkit-border-radius: 28;
+    -moz-border-radius: 28;
+    border-radius: 28px;
+    text-shadow: 5px 3px 3px #FF96AD;
+    font-family: Georgia;
+    color: #005A8D;
+    font-size: 22px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+  }
+  
+  .btn:hover {
+    background: #FF96AD;
+    background-image: -webkit-linear-gradient(top, #FF96AD, #FF96AD);
+    background-image: -moz-linear-gradient(top, #FF96AD, #FF96AD);
+    background-image: -ms-linear-gradient(top, #FF96AD, #FF96AD);
+    background-image: -o-linear-gradient(top, #FF96AD, #FF96AD);
+    background-image: linear-gradient(to bottom, #FF96AD, #FF96AD);
+    text-decoration: none;
+  }
+
+.top-container{
+    background-color: #FFF5FD;
+    padding-top: 40px;
+}
+
+.barad-img{
+    margin-top: 2rem;
+    height: 150px;
+    width: 150px;
+}
+
+.chilli-img{
+    height: 150px;
+    width: 150px;
+    float: left;
+    margin-right: 2rem;
+}
+
+.computer-img{
+    height: 150px;
+    width: 150px;
+    float: right;
+    margin-left: 2rem;
+}
+
+.middle-container{
+    margin-bottom: 3rem;
+}
+
+.bottom-container{
+    padding: 3rem;
+    background-color: #FF96AD;
+}
+
+.top-cloud{
+    position: absolute;
+    right: 27%;
+}
+
+.bottom-cloud{
+    position: absolute;
+}
+
+.skill-row{
+    width: 50%;
+    margin: 100px auto;
+    text-align: left;
+    line-height: 1.5;
+}
+
+.pbtn{
+    padding-bottom: 2rem;
+}
